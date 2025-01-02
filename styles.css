@@ -1,0 +1,35 @@
+@font-face {
+	font-family: "Aileron-Regular";
+	src: url("Aileron-Regular.otf") format("opentype");
+}
+
+:root {
+    --background_color: #4a4e69;
+    --text_color: #ccc5b9;
+}
+
+body {
+    background-color: var(--background_color);
+}
+
+p, h1, h2 {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+p, h1, h2, ul, li {
+    font-family: "Aileron-Regular";
+    color: var(--text_color);
+}
+a {
+    color: var(--background_color);
+    background-color: var(--text_color);
+}
+
+ul {
+    position: relative;
+    left: 10%;
+    width: 50%;
+}
