@@ -12,14 +12,14 @@ body {
     background-color: var(--background_color);
 }
 
-p, h1, h2 {
+p, h1, h2, h3 {
     position: relative;
     top: 20px;
     width: 100%;
     text-align: center;
 }
 
-p, h1, h2, ul, li {
+p, h1, h2, h3, ul, li {
     font-family: "Aileron-Regular";
     color: var(--text_color);
 }
